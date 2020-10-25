@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>Book Management System</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("front.jpg");
+}
+
+/* Style the header */
+.header {
+  text-align: center;
+  color:slategray;
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:maroon;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:peru;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color:salmon;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+
+
+</head>
+<body>
+  
+<div class="header">
+    <h1 style="color:midnightblue";>Book Management System</h1>
+   
+    <p>Make yourself proud.</p>
+</div>
+
+<div class="topnav">
+    <a href="bookhome.html">Home</a>
+    <a href="loginpage.html">Login</a>
+    <a href="signup.html">Register</a>
+    <a href="addbook.html">Add Book</a>
+    <a href="search.html">Search Book</a>
+    <a href="update.html">Update Book</a>
+    <a href="show.html">All books</a>
+    <a href="about.html">About</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h1 style="color:rgb(11, 24, 11)";>Connecting two worlds of data</h1>
+    <p>Open Library has gone far beyond the extra mile to provide data about author demographics that some readers may not realize. It started with Open Library’s commitment to providing its readers with what Drini Cami describes as “clean, organized, structured, queryable data.” Simply put, readers can trust that Open Library’s data can be used to provide its audiences with maximum value. Which begs the question, where is all that ‘value’ coming from?</p>
+  </div>
+  
+  <div class="column middle">
+    <h1 style="color:rgb(11, 24, 11)";>About Us</h2>
+    <p>"Book Management Syetem is an open project: the software is open, the data are open, the documentation is open, and we welcome your contribution. Whether you fix a typo, add a book, or write a widget--it's all welcome. We have a small team of fantastic programmers who have accomplished a lot, but we can't do it alone!
+
+        "</p>
+    </div>
+  
+  <div class="column side">
+    <h1 style="color:rgb(11, 24, 11)";>Libraries: Offering Conversations not Answers</h2>
+    <p>Libraries were there to spark my own ideas. The library did not set out to tell a story as a museum would. It was for me to find stories, to create connections, have my own ideas by putting things together. I would come to the library with a question and end up with ideas.  Rarely were these facts or statistics—but rather new points of view. Old books, historical newspapers, even the collection of reference books all illustrated points of view that were important to the times and subject matter. I was able to learn from others who may have been far away or long deceased. Libraries presented me with a conversation, not an answer. Good libraries cause conversations in your head with many writers. These writers, those librarians, challenged me to be different, to be better.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p><b>OUR FEATURES</b></p>
+  <p>Book Management System is one web page for every book ever published. It's a lofty but achievable goal..</p>
+  <p>Always available 24*7</p>
+</div>
+  
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Show all Books</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url("login.jpg");
+        }
+        h3{
+            margin-top: 1cm;
+            text-align: center;
+            color: green;
+            background-color: lightyellow;
+        }
+        table{
+            width: 50%;
+            margin-top: 1cm;
+        }
+        td,th{
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid black;
+            text-transform: capitalize;
+        }
+        th{
+             background-color:teal;
+        }
+        tr:nth-child(even){
+             background-color:lightcoral;
+        }
+        tr:nth-child(odd){
+             background-color:palegoldenrod;
+        }
+    </style>
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+<div class="container">
+    <div class="header">
+        <h1 style="color:rgb(155, 80, 27); text-align: center;";>All Books</h1>
+
+    <table align ="center">
+    <thead>
+      <tr>
+        <th>Sl no.</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+              <td>101</td>
+              <td>C</td>
+              <td>Manthan</td>
+              <td>500</td>
+              <td>Language</td>
+              
+      </tr>      
+      <tr class="success">
+        <td>2</td>
+              <td>102</td>
+              <td>C++</td>
+              <td>John</td>
+              <td>200</td>
+              <td>Language</td>
+      </tr>
+      <tr class="danger">
+        <td>3</td>
+              <td>103</td>
+              <td>Java</td>
+              <td>Andrew</td>
+              <td>750</td>
+              <td>Language</td>
+      </tr>
+      <tr class="info">
+        <td>4</td>
+              <td>104</td>
+              <td>Harry Potter</td>
+              <td>JK Rowling</td>
+              <td>1200</td>
+              <td>Thriller</td>
+      </tr>
+      <tr class="warning">
+        <td>5</td>
+              <td>105</td>
+              <td>Clever girl</td>
+              <td>Jean Louis</td>
+              <td>500</td>
+              <td>Thriller</td>
+      </tr>
+      <tr class="active">
+        <td>6</td>
+              <td>106</td>
+              <td>Two states</td>
+              <td>Chetan Bhagat</td>
+              <td>500</td>
+              <td>Romantic</td>
+      </tr>
+    </tbody>
+  </table>
+  </table>
+</div>
+<h5><a href="../booksystem/bookhome.html" >Home</a> </h5>
+</body>
+</html>
